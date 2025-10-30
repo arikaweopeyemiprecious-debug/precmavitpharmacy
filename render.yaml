@@ -1,6 +1,6 @@
 services:
   - type: web
     name: precious-php-site
-    env: static
+    env: node
     buildCommand: ""
     startCommand: "php -S 0.0.0.0:$PORT"
