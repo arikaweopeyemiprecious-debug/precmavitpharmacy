@@ -4,4 +4,3 @@ services:
     env: static
     buildCommand: ""
     startCommand: "php -S 0.0.0.0:$PORT"
-    plan: free
