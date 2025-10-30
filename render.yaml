@@ -1,9 +1,7 @@
 services:
   - type: web
     name: precious-php-site
-    env: docker
-    plan: free
+    env: static
     buildCommand: ""
     startCommand: "php -S 0.0.0.0:$PORT"
-    dockerfilePath: ""
-    autoDeploy: true
+    plan: free
